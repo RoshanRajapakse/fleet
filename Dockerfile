@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.18.3
 
 ADD fleetd /usr/local/bin/
 ADD fleetctl /usr/local/bin/
